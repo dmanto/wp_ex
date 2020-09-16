@@ -21,12 +21,12 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             filename: path.resolve(__dirname, './templates/layouts/default.html.ep'),
-            template: '!!html-loader!assets/mojo-templates/default.html.ep',
+            template: '!!html-loader!assets/mojo-layouts/default.html.ep',
             inject: 'head',
         }),
         new HtmlWebpackPlugin({
             filename: path.resolve(__dirname, './templates/layouts/other.html.ep'),
-            template: '!!html-loader!assets/mojo-templates/other.html.ep',
+            template: '!!html-loader!assets/mojo-layouts/other.html.ep',
             inject: 'head',
         }),
         new RealFaviconPlugin({
