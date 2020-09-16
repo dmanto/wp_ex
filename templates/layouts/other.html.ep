@@ -13,6 +13,5 @@
 <meta name="theme-color" content="#ffffff"></head>
   <body>
   <%= content %>
-  <img src="/asset/36e2799bad1c1db5cdd93333c67ccedf.png">
   </body>
 </html>

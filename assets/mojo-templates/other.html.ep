@@ -7,6 +7,5 @@
   </head>
   <body>
   <%= content %>
-  <img src="../images/apple-link.png">
   </body>
 </html>
